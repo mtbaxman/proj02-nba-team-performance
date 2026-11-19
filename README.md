@@ -2,8 +2,6 @@
 
 **Team members:** Matthew Baxman
 
-See the [Project 02 instructions](https://data385.github.io/project/proj02_wholegame.html) for what goes in each section. Bullet points are great. Put any images in an `img/` folder.
-
 ## 1. Problem statement
 
 NBA teams, coaches, and analysts want to understand which aspects of team performance are most closely associated with winning basketball 
