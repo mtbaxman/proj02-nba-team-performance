@@ -62,6 +62,8 @@ HOME_AWAY: Categorical. Whether the team played at home or away.
 
 https://www.nba.com/stats/teams/traditional
 
+![NBA Team Statistics](img/nba-team-stats.png)
+
 ## 5. EDA
 
 I plan to use the following techniques:
