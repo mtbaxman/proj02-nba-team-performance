@@ -29,10 +29,7 @@ The primary data source will be NBA.com Stats:
 https://www.nba.com/stats/teams/traditional
 
 Before scraping, I will review the website's terms of service, robots.txt file, and data access policies to determine whether automated 
-data collection is permitted. I will also investigate whether historical team statistics can be accessed and collected consistently across 
-multiple seasons.
-
-I plan to collect at least 200 observations and include both categorical and quantitative variables.
+data collection is permitted. I plan to collect at least 200 observations and include both categorical and quantitative variables.
 
 ### b. Variables of interest
 
@@ -86,9 +83,8 @@ ggplot() to create histograms, scatterplots, and bar charts.
 
 Boxplots to compare statistics between winning and losing teams.
 
-Correlation analysis to examine relationships between numerical variables.
-
-These techniques will help identify patterns in team performance and determine which statistics may be associated with winning.
+Correlation analysis to examine relationships between numerical variables. These techniques will help identify patterns in team performance 
+and determine which statistics may be associated with winning.
 
 ## 6. Modeling
 
@@ -99,7 +95,6 @@ Response variable: GAME_OUTCOME (win or loss).
 Predictor variables: FG_PCT, FG3_PCT, REB, AST, TOV, and HOME_AWAY.
 
 The model will estimate how team statistics and home-court advantage are associated with the probability of winning a game. I will evaluate 
-
 the model using a confusion matrix, accuracy, and other appropriate classification measures.
 
 ## 7. Communicate
