@@ -28,41 +28,62 @@ The primary data source will be NBA.com Stats:
 
 https://www.nba.com/stats/teams/traditional
 
-The NBA statistics website provides team statistics and performance information. I will scrape and investigate the available historical game data. I plan to use regular-season data from multiple NBA seasons to ensure that the dataset meets the minimum requirement of 200 observations.
+Before scraping, I will review the website's terms of service, robots.txt file, and data access policies to determine whether automated 
+data collection is permitted. I will also investigate whether historical team statistics can be accessed and collected consistently across 
+multiple seasons.
+
+I plan to collect at least 200 observations and include both categorical and quantitative variables.
 
 ### b. Variables of interest
 
 TEAM: Categorical. The NBA team participating in the game.
+
 SEASON: Categorical. The NBA season in which the game occurred.
+
 GAME_DATE: Date. The date the game was played.
+
 GAME_OUTCOME: Categorical. Whether the team won or lost the game.
+
 POINTS: Quantitative. Total points scored by the team.
+
 FG_PCT: Quantitative. Team field goal shooting percentage.
+
 FG3_PCT: Quantitative. Team three-point shooting percentage.
+
 REB: Quantitative. Total rebounds recorded by the team.
+
 AST: Quantitative. Total assists recorded by the team.
+
 TOV: Quantitative. Total turnovers committed by the team.
+
 HOME_AWAY: Categorical. Whether the team played at home or away.
 
 ## 4. Data example
 
 https://www.nba.com/stats/teams/traditional
 
-
-
 ## 5. EDA
 
 I plan to use the following techniques:
 
 read_csv() to import the data into R.
+
 glimpse() and summary() to examine the dataset and understand the variables.
+
 is.na() to identify missing values.
+
 distinct() to check for duplicate observations.
+
 filter() to select regular-season games.
+
 mutate() to create or modify variables when necessary.
+
 group_by() and summarise() to calculate team performance summaries.
+
 ggplot() to create histograms, scatterplots, and bar charts.
+
 Boxplots to compare statistics between winning and losing teams.
+
 Correlation analysis to examine relationships between numerical variables.
 
 These techniques will help identify patterns in team performance and determine which statistics may be associated with winning.
@@ -72,13 +93,18 @@ These techniques will help identify patterns in team performance and determine w
 I plan to use logistic regression because the response variable has two possible outcomes: win or loss.
 
 Response variable: GAME_OUTCOME (win or loss).
+
 Predictor variables: FG_PCT, FG3_PCT, REB, AST, TOV, and HOME_AWAY.
+
 The model will estimate how team statistics and home-court advantage are associated with the probability of winning a game. I will evaluate 
+
 the model using a confusion matrix, accuracy, and other appropriate classification measures.
 
 ## 7. Communicate
 
-I plan to communicate my results through a short slide presentation. The presentation will include data visualizations, descriptive statistics, logistic regression results, and recommendations about which team performance factors are most strongly associated with winning NBA games.
+I plan to communicate my results through a short slide presentation. The presentation will include data visualizations, descriptive 
+statistics, logistic regression results, and recommendations about which team performance factors are most strongly associated with winning 
+NBA games.
 
 ## 8. LLM disclaimer
 
